@@ -23,7 +23,7 @@ jobs:
       - name: 设置 pnpm
         uses: pnpm/action-setup@v6
         with:
-          version: 11.9.0
+          version: 11.9.0 # 设置我的pnpm版本
 
 
       - name: 设置 Node.js
