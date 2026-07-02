@@ -35,6 +35,7 @@ jobs:
       - name: 安装依赖
         run: |
           corepack enable
+          pnpm config set registry https://registry.npmmirror.com        
           pnpm ci
 
       - name: 构建文档
