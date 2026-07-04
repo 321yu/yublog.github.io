@@ -20,12 +20,13 @@ export default hopeTheme({
 
   docsDir: "src",
 
+  // 下面链接图标换为我的
   blog: {
     medias: {
-      BiliBili: "https://example.com",
-      Email: "mailto:info@example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
+      // BiliBili: "https://example.com",
+      // Email: "mailto:info@example.com",
+      // Gitee: "https://example.com",
+      GitHub: "https://github.com/321yu",
       // Youtube: "https://example.com",
       Zhihu: "https://example.com",
       // VuePressThemeHope: {
@@ -34,9 +35,10 @@ export default hopeTheme({
       // },
     },
   },
-
+  
+  /** English locale config */
   locales: {
-    "/": {
+    "/en/": {
       // navbar
       navbar: enNavbar,
 
@@ -58,7 +60,7 @@ export default hopeTheme({
     },
 
     /** Chinese locale config */
-    "/zh/": {
+    "/": {
       // navbar
       navbar: zhNavbar,
 
@@ -70,9 +72,8 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        // 描述
+        // 中文页面描述
         description: "汽车电子工程师在成长",
-        intro: "/zh/intro.html",
       },
 
       // page meta
@@ -82,13 +83,14 @@ export default hopeTheme({
     },
   },
 
+  /* 加密文章 */
   encrypt: {
     config: {
       "/demo/encrypt.html": {
         hint: "Password: 1234",
         password: "1234",
       },
-      "/zh/demo/encrypt.html": {
+      "/en/demo/encrypt.html": {
         hint: "Password: 1234",
         password: "1234",
       },
@@ -170,16 +172,32 @@ export default hopeTheme({
     // },
   },
 
+  // 插件
   plugins: {
-    blog: true,
+    // 启用博客功能 
+    blog: true, 
+
+    // 配置版权声明插件
+    copyright: {
+      // options
+      author: "喵屿",  // 作者名称
+      triggerLength: 60, // 设置触发版权声明的字数门槛
+      license: "CC BY-SA 4.0", // 指定使用的版权协议
+      canonical: "https://321yu.github.io/zh/", // 规范网址,我的blog地址
+      global: true, // 全局启用
+    },
 
     // Install @waline/client before enabling it
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
-    // comment: {
-    //   provider: "Waline",
-    //   serverURL: "https://waline-comment.vuejs.press",
-    // },
+    // 评论区开放
+    comment: {
+      provider: "Giscus",
+      repo: "321yu/321yu.github.io",
+      repoId: "R_kgDOTLku7A",
+      category: "Announcements",
+      categoryId: "DIC_kwDOTLku7M4DAeyU",
+    },
 
     components: {
       components: ["Badge", "VPCard"],
