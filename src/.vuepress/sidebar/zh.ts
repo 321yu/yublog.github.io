@@ -22,7 +22,7 @@ export const zhSidebar = sidebar({
     {
       text: "踩坑记录",
       icon: "book",
-      prefix: "posts/",
+      prefix: "trap/",
       children: "structure",
       collapsible: true,
     },
