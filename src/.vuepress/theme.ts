@@ -184,10 +184,14 @@ export default hopeTheme({
     // Install @waline/client before enabling it
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
-    // comment: {
-    //   provider: "Waline",
-    //   serverURL: "https://waline-comment.vuejs.press",
-    // },
+    // 评论区
+    comment: {
+      provider: "Giscus",
+      repo: "321yu/321yu.github.io",
+      repoId: "R_kgDOTLku7A",
+      category: "Announcements",
+      categoryId:"DIC_kwDOTLku7M4DAeyU",
+    },
 
     components: {
       components: ["Badge", "VPCard"],

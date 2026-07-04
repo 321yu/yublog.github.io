@@ -40,11 +40,13 @@ tagline: 我的野心就是自由一生
 #     desc: 自定义详细介绍
 #     link: https://你的自定义链接
 
-footer: 自定义你的页脚文字
+
+# 自定义你的页脚文字
+footer: The harder you work, the luckier you get.
 ---
 
-这是一个博客主页的案例。
+<!-- 这是一个博客主页的案例。
 
 要使用此布局，你应该在页面前端设置 `layout: Blog` 和 `home: true`。
 
-相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home.html)。
+相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home.html)。 -->

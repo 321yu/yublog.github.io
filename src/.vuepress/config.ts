@@ -20,8 +20,8 @@ export default defineUserConfig({
     // 默认 /zh/ 目录下是中文， 很麻烦
     "/zh/": {
       lang: "zh-CN",
-      title: "喵屿'blog",
-      description: "vuepress-theme-hope 的blog",
+      title: "Meow Isle",
+      description: "A blog for Meow Isle",
     },
   },
 
