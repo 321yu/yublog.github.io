@@ -1,16 +1,17 @@
 ---
+cover: /assets/images/cover2.jpg
 icon: pen-to-square
-date: 2022-01-05
+date: 2022-01-12
 category:
-  - Banana
-  - Fruit
+  - Vegetable
 tag:
-  - yellow
-  - curly
-  - long
+  - red
+  - round
+star: true
+sticky: true
 ---
 
-# Banana 1
+# Tomato
 
 ## Heading 2
 

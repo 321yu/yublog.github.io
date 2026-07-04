@@ -7,17 +7,15 @@ export default defineUserConfig({
   dest: 'src/.vuepress/dist',  // 强制指定
 
   locales: {
-    // 英文版
-    "/en": {
-      lang: "en-US",
-      title: "Meow Isle'blog",
-      description: "Welcome to Meow Isle Cottage.",
-    },
-    // 中文版
     "/": {
+      lang: "en-US",
+      title: "Blog Demo",
+      description: "A blog demo for vuepress-theme-hope",
+    },
+    "/zh/": {
       lang: "zh-CN",
-      title: "Meow Isle'blog",
-      description: "Welcome to Meow Isle Cottage.",
+      title: "喵屿'blog",
+      description: "vuepress-theme-hope 的blog",
     },
   },
 

@@ -1,16 +1,15 @@
 ---
 icon: pen-to-square
-date: 2022-01-05
+date: 2022-01-11
 category:
-  - Banana
   - Fruit
+  - Strawberry
 tag:
-  - yellow
-  - curly
-  - long
+  - red
+  - small
 ---
 
-# Banana 1
+# Strawberry
 
 ## Heading 2
 
