@@ -4,23 +4,28 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  // 站点地址 https://321yu.github.io/
+  hostname: "https://321yu.github.io/",
 
   // 作者信息
   author: {
     name: "喵屿",
-    url: "https://mister-hope.com",
+    url: "https://github.com/321yu",
   },
 
   // logo图标
   //logo: "https://theme-hope-assets.vuejs.press/logo.svg",
   logo: "/logo1.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  // 仓库地址
+  repo: "https://github.com/321yu/321yu.github.io",
 
   docsDir: "src",
 
   blog: {
+    // 头像和个人昵称可以在这里配置
+
+    // 社交媒体
     medias: {
       BiliBili: "https://example.com",
       Email: "mailto:info@example.com",
@@ -35,7 +40,10 @@ export default hopeTheme({
     },
   },
 
+
+  // 本地化
   locales: {
+    // 依旧首选英文
     "/": {
       // navbar
       navbar: enNavbar,
