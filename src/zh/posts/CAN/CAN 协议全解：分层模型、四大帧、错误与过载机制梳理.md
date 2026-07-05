@@ -1,3 +1,16 @@
+---
+# cover: /assets/images/cover2.jpg
+# icon: pen-to-square
+date: 2026-07-05
+category:
+  - 汽车
+  - 笔记
+tag:
+  - CAN
+star: true
+sticky: true
+---
+
 # CAN 协议全解：分层模型、四大帧、错误与过载机制梳理
 
 ## CAN 协议与 OSI 七层模型的关系
